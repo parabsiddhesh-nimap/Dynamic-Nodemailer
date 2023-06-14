@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Our Company</title>
+  <style>
+    /* Define your email styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      max-width: 150px;
+    }
+
+    .message {
+      margin-bottom: 20px;
+    }
+
+    .button {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .button a {
+      display: inline-block;
+      background-color: #0088cc;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #888888;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="message">
+      <h2>Welcome to Our Company!</h2>
+      <p>Dear <%= name %>,</p><br><br>
+      <p>Thank you for joining our team. We are excited to have you on board.</p>
+      <p>If you have any questions or need assistance, feel free to reach out to the HR department.</p>
+      <img src=<%=file%> alt="welcome.png"><br><br>
+      <p>Best regards,</p>
+      <p>The HR Team</p>
+    </div>
+    <div class="button">
+      <a href="https://ntts.nimapinfotech.com/" target="_blank">Visit Our Website</a>
+    </div>
+    <div class="footer">
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
